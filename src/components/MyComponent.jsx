@@ -1,3 +1,3 @@
-export default function MyComponent({ title }) {
+export default function TitleComponent({ title }) {
   return <h1> {title} en un componente</h1>;
 }

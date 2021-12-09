@@ -1,10 +1,10 @@
-import MyComponent from "./components/MyComponent";
+import TitleComponent from "./components/MyComponent";
 
 function App() {
   const titulo = "Este es un titulo";
   return (
     <div className="App">
-      <MyComponent title={titulo} />
+      <TitleComponent title={titulo} />
     </div>
   );
 }
