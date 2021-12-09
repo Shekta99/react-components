@@ -1,3 +1,3 @@
-export default function TitleComponent({ title }) {
-  return <h1> {title} en un componente</h1>;
+export default function TitleComponent(props) {
+  return <h1> {props.title} en un componente</h1>;
 }
